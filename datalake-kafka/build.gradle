@@ -1,0 +1,5 @@
+dependencies {
+    compile project(":datalake-core")
+    implementation('org.apache.kafka:kafka-clients:2.3.0')
+    implementation('com.fasterxml.jackson.core:jackson-databind:2.9.9')
+}

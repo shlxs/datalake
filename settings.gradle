@@ -1,0 +1,5 @@
+rootProject.name = 'datalake'
+
+include 'datalake-core'
+include 'datalake-kafka'
+include 'datalake-kudu'

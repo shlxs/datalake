@@ -1,0 +1,26 @@
+# config kafka
+kafka:
+  broker_list: localhost:9092
+  group_id: dataLake
+  topic: event-topic
+  async_process: true
+  async_process_thread_num: 20
+
+# config kudu
+kudu:
+  master_url: 10.191.80.130
+
+
+# config processor
+processor:
+  ip:
+    fileUrl: http://10.191.80.106:30342/ip.datx
+    intervalSecond: 10
+  time:
+    trustPastDay: 7 # 信任最近7天的时间数据
+
+
+logging:
+  level:
+    com:
+      dobest: debug
