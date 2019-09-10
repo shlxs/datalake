@@ -1,7 +1,7 @@
 package cn.sunrisecolors.datalake.kafka;
 
-import cn.sunrisecolors.datalake.core.Event;
-import cn.sunrisecolors.datalake.core.RecordProcessor;
+import cn.sunrisecolors.datalake.msgpack.Event;
+import cn.sunrisecolors.datalake.msgpack.RecordProcessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 
